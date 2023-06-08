@@ -215,3 +215,9 @@ footer{
     text-align: center;
     margin-top: 40px;
 }
+
+.contenu {
+    position: relative;
+    text-align: center;
+    color: white;
+}
