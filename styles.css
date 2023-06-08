@@ -113,6 +113,24 @@ nav a:hover::after {
     color: #CEA71B;
 }
 
+.pageAcc{
+    background: rgba(244, 238, 236, 0.90);
+    color: #3BA1A8;
+    border-radius: 40px;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    padding: 1rem 1rem;
+    font-size: 30px;
+    transition: scale ;
+}
+
+.pageAcc:hover{
+    scale: 1.05;
+    color: #CEA71B;
+}
+
+
 .appele{
     background: #3BA1A8;
     color: #FFFFFF;
@@ -183,4 +201,17 @@ footer{
     left: 50%;
     transform: translate(-50%, -50%);
     font-size: 96px;
+}
+
+._centered {
+    position: absolute;
+    font-family: 'Ledger', serif;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 64px;
+    color: white;
+    width: 950px;
+    text-align: center;
+    margin-top: 40px;
 }
