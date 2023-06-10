@@ -4,7 +4,10 @@ body {
     font-family: 'Lato', sans-serif;
     font-weight: 400;
     font-size: 18px;
+    overflow-x: hidden; 
 }
+
+
 
 .container{
     margin: 0 auto;
@@ -367,8 +370,8 @@ footer{
 
 }
 
-.titre h2{
-    font-size: 48px;
+.title{
+    font-size: 28px;
     font-weight: 400;
     color: #000000;
     margin-top: 40px;
@@ -476,17 +479,146 @@ footer{
     font-family: 'Lato', sans-serif;
     color: #3BA1A8;
     border: 2px;
-    padding: 15px 28px 15px 32px;
-    
+    border: 2px solid #3ba1a8c5;
+    background-color: #e8e4e300;
+    width: 250px;
+    padding-left: 10px;
+    padding-top: 2px;
+    padding-bottom: 2px;
 }
 
 .button3:hover{
-    scale: 1.05;
-    color: #FFFFFF;
-    box-shadow: #3BA1A8;
+    color: #2a7b80;
+    box-shadow: #2a7c80cd;
+    border: 2px solid #2a7b80;
 }
 
-#expert{
-    transform: translateX(-500px);
-    transform: translateY(100px)
+#expert1{
+    transform: translate(-430px, 100px);
+
+}
+
+#expert2{
+    transform: translate(-420px, 85px);
+}
+
+#heure1{
+    transform: translate(-742px, 200px);
+}
+
+#heure2{
+    transform: translate(-740px, 220px);
+}
+
+.button4{
+    box-shadow: 0 3px 3px rgba(114, 97, 3, 0.803);
+    border-radius: 30px;
+    font-size: 20px;
+    font-family: 'Lato', sans-serif;
+    color: #FFFFFF;
+    background-color: #9b7c0bd3;
+    border: none;
+    padding: 15px 28px 15px 32px;
+}
+
+.button4:hover{
+    color: #e8e3e3;
+    box-shadow: 0 5px 5px rgba(114, 97, 3, 0.943);
+}
+
+#btn4 {
+    transform: translate(700px, -65px);
+}
+
+#btn3 {
+    transform: translate(750px, -75px);
+}
+
+.rencontre{
+    text-align: center;
+    font-size: 64px;
+    font-family: 'Ledger', serif;
+    color: #F4EEEC;
+    width:auto;
+    padding: 10px;
+    background-color: rgba(42, 124, 128, 0.847);
+}
+
+.endRencontre{
+    width:auto;
+    padding: 100px;
+    background-color: rgba(42, 124, 128, 0.847);
+
+}
+
+.docteurs{
+    margin-left: 500px;
+    font-size: 40px;
+    font-family: 'Ledger', serif;
+}
+
+#description1{
+    font-size: 26px;
+    transform: translate(-2px, -200px);
+}
+#description2{
+    font-size: 26px;
+    transform: translate(-2px, -200px);
+}
+#description3{
+    font-size: 26px;
+    transform: translate(-2px, -200px);
+}
+#description4{
+    font-size: 26px;
+    transform: translate(-2px, -200px);
+}
+
+#doc1{
+    transform: translate(-400px, 100px);
+}
+
+#doc2{
+    transform: translate(-400px, 100px);
+}
+
+#doc3{
+    transform: translate(-400px, 100px);
+}
+
+#doc4{
+    transform: translate(-400px, 100px);
+}
+
+#d1{
+    transform: translate(-2px, -275px);
+}
+
+#d2{
+    transform: translate(-2px, -275px);
+}
+
+#d3{
+    transform: translate(-2px, -275px);
+}
+
+#d4{
+    transform: translate(-2px, -275px);
+}
+
+#map1{
+    margin-top: 40px;
+    margin-left: 70px;
+    width:600px;
+    padding: 30px;
+    border-radius: 20px;
+    background-color: hsla(47, 83%, 31%, 0.592);
+    margin-bottom: 70px;
+}
+
+#map2{
+    width:560px;
+    margin-bottom: 70px;
+    border-radius: 20px;
+    margin-left: 60px;
 }
