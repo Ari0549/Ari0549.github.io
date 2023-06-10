@@ -27,13 +27,53 @@
             <a href="assurances.html">assurance</a>
           </li>
           <li>
-            <button type="button" class="rvButton" onclick="widow.local.href='rendezvous.html'">Réservez maintenant</button>
+            <button type="button" class="rvButton" onclick="window.location.href = 'entrerdonnees.html';">Réservez maintenant</button>
           </li>
         </ul>
       </nav>
   
     </div>
   </header>
+
+  <div class="data" style="margin-left: 70px;">
+    <div class="titre">
+      <h2> Bienvenue au Dental lab</h2>
+    </div>
+    <form class="dropdownData" style="margin-bottom: 100px;">
+  
+      <div>
+        <label for="dropdownCourriel">Nom du patient</label>
+        <div style="margin-top: 10px;">
+          <input type="courriel" class="ddpre" id="dropdownPrenom" placeholder="Prénom" style="color: #5A5A5A;">
+          <input type="numero" class="ddn" id="dropdownNom" placeholder="Nom de famille" style="color: #5A5A5A;">
+        </div>
+      </div>
+  
+      <div style="margin-top: 30px;">
+        <label for="dropdownCourriel" style="margin-right: 240px;">Adresse courriel</label>
+        <label for="dropdownNumTel">Numéro de téléphone</label>
+        <div style="margin-top: 10px;">
+          <input type="courriel" class="ddcour" id="dropdownCourriel" placeholder="email@exemple.com" style="color: #5A5A5A;"">
+          <input type="numero" class="ddnum" id="dropdownNumero" placeholder="">
+        </div>
+      </div>
+    </form>
+  </div>
+
+  <div class="choose">
+    <label for="yes_no_radio">Pour qui réservez-vous ?</label>
+    <p>
+    <input type="radio" name="yes_no" checked>Pour moi-même</input>
+    </p>
+    <p>
+    <input type="radio" name="yes_no">Pour quelqu'un d'autre</input>
+    </p>
+  </div>
+
+  <div class="precedSuiv">
+    <button class="button2" onclick="window.location.href = 'rendezvous.html';">Suivant ></button>
+  </div>
+
 
   <footer>
     <div class="_cont">
