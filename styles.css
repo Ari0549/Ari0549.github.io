@@ -622,3 +622,271 @@ footer{
     border-radius: 20px;
     margin-left: 60px;
 }
+
+#emplacement{
+    transform: translate(950px,-365px);
+    z-index: 1;
+    color: #FFFFFF;
+    font-family: 'Ledger', serif;
+    font-size: 50px;
+}
+
+.urgence{
+    text-align: center;
+    color: #000000;
+    font-family: 'Ledger', serif;
+    font-size: 40px;
+}
+
+.explic{
+    color: #90730D;
+    font-family: 'Ledger', serif;
+    font-size: 40px;
+    width: 500px;
+    text-align: center;
+    margin-left: 475px;
+}
+
+.etape1{
+    width: 300px;
+    background-color: #bac1c2ba;
+    padding: 50px;
+    margin-left: 50px;
+    height: 300px; 
+    display: inline-block;
+}
+
+.etape1 h7{
+    font-size: 40px;
+    font-family: 'Ledger', serif;
+    margin-left: 90px;
+}
+
+.etape1descrip{
+    width: 200px;
+    background-color: hsla(184, 48%, 45%, 0.734);
+    padding: 50px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    height: 150px; 
+    display: inline-block;
+    border-radius: 20px;
+}
+
+.etape2{
+    width: 300px;
+    background-color: #bac1c2ba;
+    padding: 50px;
+    margin-left: 50px;
+    height: 300px; 
+    display: inline-block;
+}
+
+.etape2 h7{
+    font-size: 40px;
+    font-family: 'Ledger', serif;
+    margin-left: 90px;
+}
+
+.etape3{
+    width: 300px;
+    background-color: #bac1c2ba;
+    padding: 50px;
+    margin-left: 50px;
+    height: 300px; 
+    display: inline-block;
+}
+
+.etape3 h7{
+    font-size: 40px;
+    font-family: 'Ledger', serif;
+    margin-left: 90px;
+}
+
+#e2{
+    transform: translate(0, -155px);
+}
+
+#e3{
+    transform: translate(0, -155px);
+}
+
+.urg{
+    display: flex;
+    justify-content: space-around;
+    font-family: 'Ledger', serif;
+    margin-bottom: 120px;
+}
+
+.urg2 h7{
+    font-size: 36px;
+    font-family: 'Ledger', serif;
+}
+
+.urg2 p{
+    font-size: 20px;
+    font-family: 'Ledger', serif;
+}
+
+.general{
+    display: flex;
+    justify-content: space-around;
+    font-family: 'Ledger', serif;
+}
+
+.general h8{
+    font-size: 48px;
+}
+
+.gen{
+    display: flex;
+    font-family: 'Ledger', serif;
+    margin-left: 150px;
+    font-size: 28px;
+}
+
+.descr{
+    display: flex;
+    margin-left: 220px;
+    font-family: 'Ledger', serif;
+    margin-bottom: 60px;
+    font-size: 22px;
+}
+
+#espace{
+    width: 730px;
+    background-color: #90730D;
+    height: 1px;
+    padding: 1px;
+    margin-top: 50px;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+#espace2{
+    width: 560px;
+    background-color: #90730D;
+    height: 1px;
+    padding: 1px;
+    margin-top: 50px;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+
+.cosmetique{
+    display: flex;
+    justify-content: space-around;
+    font-family: 'Ledger', serif;
+}
+
+.cosmetique h8{
+    font-size: 48px;
+}
+
+.cos{
+    display: flex;
+    font-family: 'Ledger', serif;
+    margin-left: 170px;
+    font-size: 28px;
+}
+
+#espace3{
+    width: 635px;
+    background-color: #90730D;
+    height: 1px;
+    padding: 1px;
+    margin-top: 50px;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+#espace4{
+    width: 675px;
+    background-color: #90730D;
+    height: 1px;
+    padding: 1px;
+    margin-top: 50px;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+#espace5{
+    width: 655px;
+    background-color: #90730D;
+    height: 1px;
+    padding: 1px;
+    margin-top: 50px;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+.abonnement{
+    font-family: 'Lato', sans-serif;
+    font-weight: 400;
+    font-size: 36px;
+    color: #455E64;
+    margin-left: 70px;
+}
+
+.check{
+    display: flex;
+}
+
+#avantage{
+    font-family: 'Lato', sans-serif;
+    font-weight: 400;
+    font-size: 20px;
+}
+
+.enfant{
+    display: flex;
+    margin-top: 150px;
+    margin-left: 90px;
+}
+
+.check1{
+    margin-left: 80px;
+}
+
+.check2{
+    display: flex;
+}
+
+.avantage2{
+    font-family: 'Lato', sans-serif;
+    font-weight: 400;
+    font-size: 20px;
+}
+
+.adulte{
+    display: flex;
+    margin-top: 150px;
+    margin-left: 90px;
+}
+
+.age{
+    display: flex;
+    margin-top: 150px;
+    margin-left: 90px;
+    margin-bottom: 60px;
+}
+
+.temoignage h11{
+    font-family: 'Lato', sans-serif;
+    font-weight: 400;
+    font-size: 42px;
+    color: #455E64;
+    margin-left: 600px;
+}
+
+.tem{
+    width: 200px;
+    background-color: #bac1c2ba;
+    padding: 50px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    height: 150px; 
+    display: inline-block;
+    margin-left: 135px;
+}
