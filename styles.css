@@ -552,19 +552,23 @@ footer{
 
 #description1{
     font-size: 26px;
-    transform: translate(-2px, -200px);
+    transform: translate(-2px, -300px);
+    width: 600px;
 }
 #description2{
     font-size: 26px;
-    transform: translate(-2px, -200px);
+    transform: translate(-2px, -300px);
+    width: 600px;
 }
 #description3{
     font-size: 26px;
-    transform: translate(-2px, -200px);
+    transform: translate(-2px, -300px);
+    width: 600px;
 }
 #description4{
     font-size: 26px;
-    transform: translate(-2px, -200px);
+    transform: translate(-2px, -300px);
+    width: 600px;
 }
 
 #doc1{
@@ -659,7 +663,7 @@ footer{
     width: 200px;
     background-color: hsla(184, 48%, 45%, 0.734);
     padding: 50px;
-    margin-top: 20px;
+    margin-top: 15px;
     margin-bottom: 20px;
     height: 150px; 
     display: inline-block;
@@ -697,11 +701,11 @@ footer{
 }
 
 #e2{
-    transform: translate(0, -155px);
+    transform: translate(0, -108px);
 }
 
 #e3{
-    transform: translate(0, -155px);
+    transform: translate(0, -88px);
 }
 
 .urg{
@@ -719,6 +723,7 @@ footer{
 .urg2 p{
     font-size: 20px;
     font-family: 'Ledger', serif;
+    width: 300px;
 }
 
 .general{
@@ -744,6 +749,7 @@ footer{
     font-family: 'Ledger', serif;
     margin-bottom: 60px;
     font-size: 22px;
+    color: #747272;
 }
 
 #espace{
@@ -944,20 +950,28 @@ footer{
     font-weight: 400;
     font-size: 46px;
     color: #455E64;
-    margin-left: 580px;
+    margin-left: 480px;
 }
 
 .tem{
-    width: 200px;
+    width: 270px;
     background-color: #bac1c2ba;
-    padding: 50px;
-    height: 150px; 
+    padding-bottom: 50px;
+    padding-left: 50px;
+    padding-right: 40px;
+    padding-top: 10px;
+    height: 270px; 
     display: inline-block;
-    margin-left: 135px;
+    margin-left: 85px;
+    font-family: 'Lato', sans-serif;
+    color:#455E64;
+    border-radius: 10px;
+    box-shadow: 0 0.5rem 3rem rgba(69, 94, 100, 0.262);
+
 }
 
 #temoign1{
-    transform: translate(0px, -890px);
+    transform: translate(0px, -975px);
 }
 
 #temoign2{
@@ -965,7 +979,7 @@ footer{
 }
 
 #temoign3{
-    transform: translate(0px, -890px);
+    transform: translate(0px, -980px);
 }
 
 .fournisseur{
@@ -985,3 +999,19 @@ footer{
     margin-bottom: 150px;
 }
 
+.abTitre{
+    font-family: 'Ledger', serif;
+    font-size: 28px;
+    margin-left: 70px;
+}
+
+.abTexte{
+    font-family: 'Ledger', serif;
+    font-size: 20px;
+}
+
+.aproposClinique{
+    margin-top: 100px;
+    margin-left: 65px;
+    margin-bottom: 100px;
+}
