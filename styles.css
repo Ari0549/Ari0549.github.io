@@ -7,8 +7,6 @@ body {
     overflow-x: hidden; 
 }
 
-
-
 .container{
     margin: 0 auto;
 }
@@ -346,13 +344,10 @@ footer{
     margin: 20px;
     display: flex;
     margin-left: 70px;
-    height: 465px;
-    
+    height: 465px; 
 }
 
 .form-select{
-    width: 400px;
-    height: 40px;
     border-radius: 20px;
     text-align: center;
     font-size: 20px;
@@ -367,7 +362,6 @@ footer{
 
 .data{
     font-family: 'Ledger', serif;
-
 }
 
 .title{
@@ -468,7 +462,6 @@ footer{
     margin-left: 70px;
     font-size: 24px;
     font-family: 'Ledger', serif;
-
     margin-bottom: 70px;
 }
 
@@ -494,20 +487,21 @@ footer{
 }
 
 #expert1{
-    transform: translate(-430px, 100px);
-
+    transform: translate(-470px, 130px);
+    margin-top: 75px;
 }
 
 #expert2{
-    transform: translate(-420px, 85px);
+    transform: translate(-463px, 150px);
+
 }
 
 #heure1{
-    transform: translate(-742px, 200px);
+    transform: translate(-932px, 265px);
 }
 
 #heure2{
-    transform: translate(-740px, 220px);
+    transform: translate(-940px, 275px);
 }
 
 .button4{
@@ -548,7 +542,6 @@ footer{
     width:auto;
     padding: 100px;
     background-color: rgba(42, 124, 128, 0.847);
-
 }
 
 .docteurs{
@@ -773,7 +766,6 @@ footer{
     margin-right: 5px;
 }
 
-
 .cosmetique{
     display: flex;
     justify-content: space-around;
@@ -827,6 +819,7 @@ footer{
     font-size: 36px;
     color: #455E64;
     margin-left: 70px;
+    
 }
 
 .check{
@@ -842,15 +835,71 @@ footer{
 .enfant{
     display: flex;
     margin-top: 150px;
-    margin-left: 90px;
 }
 
+#enfimage{
+    margin-left: 180px;
+}
 .check1{
     margin-left: 80px;
+    font-size: 30px;
 }
 
-.check2{
+.c1{
     display: flex;
+    font-size: 24px;
+}
+
+#ck1{
+    transform: translate(800px, -310px);
+}
+
+#ck2{
+    transform: translate(800px, -360px);
+}
+
+#ck3{
+    transform: translate(800px, -410px);
+}
+
+#adimage{
+    transform: translate(680px, -370px);
+}
+
+#ad1{
+    transform: translate(-460px, -360px);
+}
+
+#ck4{
+    transform: translate(220px, -690px);
+}
+
+#ck5{
+    transform: translate(220px, -740px);
+}
+
+#ck6{
+    transform: translate(220px, -790px);
+}
+
+#agimage{
+    transform: translate(100px, -730px);
+}
+
+#ag1{
+    transform: translate(100px, -740px);
+}
+
+#ck7{
+    transform: translate(800px, -1100px);
+}
+
+#ck8{
+    transform: translate(800px, -1150px);
+}
+
+#ck9{
+    transform: translate(800px, -1200px);
 }
 
 .avantage2{
@@ -872,21 +921,67 @@ footer{
     margin-bottom: 60px;
 }
 
-.temoignage h11{
+
+#t1{
+    width:auto;
+    padding: 200px;
+    background-color: rgba(42, 124, 128, 0.847);
+
+    transform: translate(0px, 500px);
+}
+
+#t2{
+    width:auto;
+    padding: 200px;
+    background-color: rgba(42, 124, 128, 0.847);
+    transform: translate(0px, -1200px);
+}
+
+
+#temoign{
+    transform: translate(0px, -1000px);
     font-family: 'Lato', sans-serif;
     font-weight: 400;
-    font-size: 42px;
+    font-size: 46px;
     color: #455E64;
-    margin-left: 600px;
+    margin-left: 580px;
 }
 
 .tem{
     width: 200px;
     background-color: #bac1c2ba;
     padding: 50px;
-    margin-top: 20px;
-    margin-bottom: 20px;
     height: 150px; 
     display: inline-block;
     margin-left: 135px;
 }
+
+#temoign1{
+    transform: translate(0px, -890px);
+}
+
+#temoign2{
+    transform: translate(0px, -890px);
+}
+
+#temoign3{
+    transform: translate(0px, -890px);
+}
+
+.fournisseur{
+    font-size: 48px;
+    color: #90730D;
+    font-family: 'Ledger', serif;
+    width: 900px;
+    margin-left: 300px;
+    text-align: center;
+    margin-top: 150px;
+}
+
+.assurances{
+    margin-top: 130px;
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 150px;
+}
+
