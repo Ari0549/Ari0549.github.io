@@ -16,24 +16,24 @@ header {
 }
 
 header:after{
-    content: '';
     display: table;
+    content: '';
     clear: both;
 }
 
 .logo{
-  width: 100px;
-  float: left;
-  padding-left: 50px;
-  margin-top: 5px;
-  margin-bottom: 5px;
-  padding: 10 10;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    width: 100px;
+    float: left;
+    padding-left: 50px;
+    padding: 10 10;
 }
 
 nav{
-    float: right;
-    padding-right: 20px;
     margin-top: 10px;
+    padding-right: 20px;
+    float: right;
 }
 
 nav ul {
@@ -41,9 +41,9 @@ nav ul {
 }
 
 nav li {
-    display: inline-block;
     margin-left: 50px;
     padding-top: 10px;
+    display: inline-block;
     position: relative;
 }
 
@@ -58,14 +58,13 @@ nav a:hover{
 }
 
 nav a:after {
-    content: '';
     display: block;
-    height: 5px;
-    background-color: #CEA71B;
-    position: absolute;
     width: 0%;
+    background-color: #CEA71B;
+    content: '';
+    height: 5px;
+    position: absolute;
     transition: all ease-in-out 300ms;
-
 }
 
 nav a:hover::after {
@@ -75,35 +74,35 @@ nav a:hover::after {
 
 
 .rvButton{
+    font-family: 'Lato', sans-serif;
     background-color: #24757A;
     color: #FFFFFF;
-    border: none;
-    outline: none;
     border-radius: 25px;
     cursor: pointer;
     padding: 0.5rem 0.5rem;
     transition: scale ;
-    font-family: 'Lato', sans-serif;
     padding: 12px 12px 12px 12px;
     margin-right: 80px;
     font-size: 18px;
+    border: none;
+    outline: none;
 }
 
 .rvButton:hover{
-    scale: 1.05;
     color: #CEA71B;
+    scale: 1.05;
 }
 
 .rendezVous{
     background: rgba(244, 238, 236, 0.76);
     color: #3BA1A8;
     border-radius: 40px;
-    border: none;
-    outline: none;
     cursor: pointer;
     padding: 1rem 1rem;
     font-size: 30px;
     transition: scale ;
+    border: none;
+    outline: none;
 }
 
 .rendezVous:hover{
@@ -162,9 +161,9 @@ footer{
 }
 
 ._cont>div>h2{
-    color: #000000;
     font-family: 'Ledger', serif;
     font-size: 28px;
+    color: #000000;
 }
 
 ._cont>div>ul{
@@ -176,12 +175,12 @@ footer{
 }
 
 ._cont>div>ul>li>a{
+    color: #000000;
+    font-family: 'Ledger', serif;
     font-size: 18px;
     text-decoration: none;
-    font-family: 'Ledger', serif;
     position: relative;
     left: 0;
-    color: #000000;
     transition: all 0.4s;
 }
 
@@ -523,7 +522,7 @@ footer{
 }
 
 #btn4 {
-    transform: translate(700px, -65px);
+    transform: translate(300px, -65px);
 }
 
 #btn3 {
