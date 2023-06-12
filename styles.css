@@ -513,6 +513,8 @@ footer{
     background-color: #24757A;
     border: none;
     padding: 15px 28px 15px 32px;
+    margin-left: 520px;
+    
 }
 
 .button4:hover{
@@ -644,68 +646,16 @@ footer{
     margin-left: 475px;
 }
 
-.etape1{
-    width: 300px;
-    background-color: #bac1c2ba;
-    padding: 50px;
-    margin-left: 50px;
-    height: 300px; 
-    display: inline-block;
-}
-
-.etape1 h7{
-    font-size: 40px;
-    font-family: 'Ledger', serif;
-    margin-left: 90px;
-}
-
-.etape1descrip{
-    width: 200px;
+.em1descrip{
+    width: auto;
     background-color: hsla(184, 48%, 45%, 0.734);
     padding: 50px;
     margin-top: 15px;
-    margin-bottom: 20px;
+    margin-bottom: 70px;
     height: 150px; 
     display: inline-block;
-    border-radius: 20px;
-}
-
-.etape2{
-    width: 300px;
-    background-color: #bac1c2ba;
-    padding: 50px;
-    margin-left: 50px;
-    height: 300px; 
-    display: inline-block;
-}
-
-.etape2 h7{
-    font-size: 40px;
     font-family: 'Ledger', serif;
-    margin-left: 90px;
-}
-
-.etape3{
-    width: 300px;
-    background-color: #bac1c2ba;
-    padding: 50px;
-    margin-left: 50px;
-    height: 300px; 
-    display: inline-block;
-}
-
-.etape3 h7{
-    font-size: 40px;
-    font-family: 'Ledger', serif;
-    margin-left: 90px;
-}
-
-#e2{
-    transform: translate(0, -108px);
-}
-
-#e3{
-    transform: translate(0, -88px);
+    font-size: 22px;
 }
 
 .urg{
