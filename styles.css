@@ -793,7 +793,9 @@ footer{
     margin-top: 150px;
 }
 
-
+#enfimage{
+    transform: translate(150px, -30px);
+}
 .check1{
     margin-left: 280px;
     font-size: 30px;
@@ -805,56 +807,56 @@ footer{
 }
 
 #ck1{
-    transform: translate(800px, -310px);
+    transform: translate(800px, -350px);
 }
 
 #ck2{
-    transform: translate(800px, -360px);
+    transform: translate(800px, -400px);
 }
 
 #ck3{
-    transform: translate(800px, -410px);
+    transform: translate(800px, -450px);
 }
 
 #adimage{
-    transform: translate(580px, -370px);
+    transform: translate(610px, -370px);
     margin-left: 70px;
 }
 
 #ad1{
-    transform: translate(-460px, -360px);
+    transform: translate(-800px, -360px);
 }
 
 #ck4{
-    transform: translate(220px, -690px);
+    transform: translate(160px, -690px);
 }
 
 #ck5{
-    transform: translate(220px, -740px);
+    transform: translate(160px, -740px);
 }
 
 #ck6{
-    transform: translate(220px, -790px);
+    transform: translate(160px, -790px);
 }
 
 #agimage{
-    transform: translate(100px, -730px);
+    transform: translate(60px, -730px);
 }
 
 #ag1{
-    transform: translate(100px, -740px);
+    transform: translate(-70px, -740px);
 }
 
 #ck7{
-    transform: translate(800px, -1100px);
+    transform: translate(850px, -1130px);
 }
 
 #ck8{
-    transform: translate(800px, -1150px);
+    transform: translate(850px, -1180px);
 }
 
 #ck9{
-    transform: translate(800px, -1200px);
+    transform: translate(850px, -1230px);
 }
 
 .avantage2{
