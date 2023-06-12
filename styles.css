@@ -15,7 +15,7 @@ header {
     background: #e8e4e3;
 }
 
-header::after{
+header:after{
     content: '';
     display: table;
     clear: both;
@@ -57,7 +57,7 @@ nav a:hover{
     color: #164B4F;
 }
 
-nav a::after {
+nav a:after {
     content: '';
     display: block;
     height: 5px;
@@ -510,14 +510,14 @@ footer{
     font-size: 20px;
     font-family: 'Lato', sans-serif;
     color: #FFFFFF;
-    background-color: #9b7c0bd3;
+    background-color: #24757A;
     border: none;
     padding: 15px 28px 15px 32px;
 }
 
 .button4:hover{
-    color: #e8e3e3;
-    box-shadow: 0 5px 5px rgba(114, 97, 3, 0.943);
+    scale: 1.05;
+    color: #CEA71B;
 }
 
 #btn4 {

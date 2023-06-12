@@ -1,3 +1,7 @@
+/*
+J'ai suivi un tutoriel pour créer mon calendrier
+*/
+
 const date = new Date();
 
 const renderCalendar = () => {
@@ -15,20 +19,7 @@ const renderCalendar = () => {
 
     const nextDays = 7 - lastDayIndex - 1;
 
-    const months = [
-        "January",
-        "February",
-        "March",
-        "April",
-        "May",
-        "June",
-        "July",
-        "August",
-        "September",
-        "October",
-        "November",
-        "December"
-    ];
+    const months = ["Janvier","Février","Mars","Avril","Mai","Juin","Juillet","Aout","Septembre","Octobre","Novembre","Décembre"];
 
     document.querySelector('.date h1').innerHTML = months[date.getMonth()];
 
