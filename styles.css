@@ -817,7 +817,8 @@ footer{
 }
 
 #adimage{
-    transform: translate(680px, -370px);
+    transform: translate(580px, -370px);
+    margin-left: 70px;
 }
 
 #ad1{
