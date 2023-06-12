@@ -808,6 +808,7 @@ footer{
 
 #ck1{
     transform: translate(800px, -350px);
+    display: flex;
 }
 
 #ck2{
@@ -879,7 +880,7 @@ footer{
 }
 
 
-#t1{
+/*#t1{
     width:auto;
     padding: 200px;
     background-color: rgba(42, 124, 128, 0.847);
@@ -892,7 +893,7 @@ footer{
     padding: 200px;
     background-color: rgba(42, 124, 128, 0.847);
     transform: translate(0px, -1200px);
-}
+}*/
 
 
 #temoign{
@@ -965,4 +966,46 @@ footer{
     margin-top: 100px;
     margin-left: 65px;
     margin-bottom: 100px;
+}
+
+
+.questions{
+    font-family: 'Ledger', serif;
+    font-size: 44px;
+    text-align: center;
+    color: #000000;
+    transform: translate(0px, -800px);
+}
+
+.quest1{
+    width: 1200px;
+    background-color:#bac1c2ba;
+    padding: 50px;
+    margin-top: 70px;
+    height: 70px; 
+    display: inline-block;
+    font-family: 'Ledger', serif;
+    font-size: 26px;
+    margin-left: 70px;
+    border-radius: 20px;
+    box-shadow: #174d51fc;
+    color: #455E64;
+    transform: translate(0px, -800px);
+}
+
+.quest2{
+    width: 1200px;
+    background-color: rgba(42, 124, 128, 0.847);
+    padding: 50px;
+    margin-top: 70px;
+    margin-bottom: 70px;
+    height: 120px; 
+    display: inline-block;
+    font-family: 'Ledger', serif;
+    font-size: 22px;
+    margin-left: 70px;
+    border-radius: 20px;
+    box-shadow: #174d51fc;
+    color: #FFFFFF;
+    transform: translate(0px, -800px);
 }
